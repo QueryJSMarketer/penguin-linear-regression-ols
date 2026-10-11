@@ -12,6 +12,13 @@ This project implements an **Ordinary Least Squares (OLS) Linear Regression** mo
 * **Seaborn & Matplotlib**
 * **Statsmodels & SciPy**
 
+## 🔍 Exploratory Data Analysis (EDA)
+Before training the OLS model, a matrix scatter plot (`pairplot`) was generated to visualize the general distributions and cross-variable correlations across the dataset:
+
+<p align="center">
+  <img src="images/pairplot.png" width="70%" alt="Pairplot Exploration">
+</p>
+
 ## 📈 Statistical Assumptions Framework
 To ensure model robustness, the script executes a comprehensive evaluation workflow:
 1. **Linearity:** Exploratory analysis using cross-variable scatter matrix visualization.
